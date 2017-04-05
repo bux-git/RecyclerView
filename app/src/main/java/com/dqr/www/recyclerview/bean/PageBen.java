@@ -24,4 +24,9 @@ public class PageBen implements Visitable{
     public int type(TypeFactory typeFactory) {
         return typeFactory.type(this);
     }
+
+    @Override
+    public int getSpanSize(TypeFactory typeFactory) {
+        return typeFactory.getSpanSize(this);
+    }
 }

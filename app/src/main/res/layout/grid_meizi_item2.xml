@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/iv_btn"
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:minHeight="200dp"
+             android:adjustViewBounds="true"
+             android:orientation="vertical"
+             android:background="#ffffff"
+             android:layout_margin="5dp"
+             android:scaleType="centerCrop">
+
+</ImageButton>

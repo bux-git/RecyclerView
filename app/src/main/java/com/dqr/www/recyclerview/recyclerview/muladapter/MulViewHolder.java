@@ -1,5 +1,6 @@
 package com.dqr.www.recyclerview.recyclerview.muladapter;
 
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.dqr.www.recyclerview.recyclerview.ViewHolder;
@@ -7,7 +8,7 @@ import com.dqr.www.recyclerview.recyclerview.ViewHolder;
 /**
  * Description：
  * Author：LiuYM
- * Date： 2017-03-30 15:25
+ * Date： 2017-03-31 10:23
  */
 
 public abstract class MulViewHolder<T> extends ViewHolder {
@@ -16,9 +17,5 @@ public abstract class MulViewHolder<T> extends ViewHolder {
         super(itemView);
     }
 
-    public MulViewHolder(View itemView, int count) {
-        super(itemView, count);
-    }
-
-    public abstract void setUpVew(T model,int position,MultiTypeAdapter multiTypeAdapter);
+    public abstract void setUpView(T data, int position, RecyclerView.Adapter adapter);
 }

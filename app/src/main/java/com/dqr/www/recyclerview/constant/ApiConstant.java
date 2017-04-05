@@ -9,5 +9,5 @@ package com.dqr.www.recyclerview.constant;
 public class ApiConstant {
 
     public static final String BASE_URL="http://gank.io/api/";
-    public static final int PAGE_COUNT=10;//每页数量
+    public static final int PAGE_COUNT=2;//每页数量
 }

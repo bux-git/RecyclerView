@@ -6,21 +6,10 @@ import com.dqr.www.recyclerview.recyclerview.muladapter.Visitable;
 /**
  * Description：
  * Author：LiuYM
- * Date： 2017-03-28 14:51
+ * Date： 2017-03-31 10:11
  */
 
-public class WelfareBean implements Visitable{
-    /**
-     * _id : 58d9b4e0421aa969f75cedeb
-     * createdAt : 2017-03-28T08:57:04.208Z
-     * desc : 3-28
-     * publishedAt : 2017-03-28T12:05:55.791Z
-     * source : chrome
-     * type : 福利
-     * url : http://7xi8d6.com1.z0.glb.clouddn.com/2017-03-28-17494350_115579865647756_2448160714821468160_n.jpg
-     * used : true
-     * who : dmj
-     */
+public class WelfareBean2 implements Visitable {
     private String _id;
     private String createdAt;
     private String desc;
@@ -111,14 +100,13 @@ public class WelfareBean implements Visitable{
     public void setPage(int page) {
         this.page = page;
     }
-
     @Override
     public int type(TypeFactory typeFactory) {
         return typeFactory.type(this);
     }
-
     @Override
     public int getSpanSize(TypeFactory typeFactory) {
         return typeFactory.getSpanSize(this);
     }
+
 }

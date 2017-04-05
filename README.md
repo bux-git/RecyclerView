@@ -2,4 +2,5 @@
 1.SwipeRefreshLayout 下拉刷新    
 2.上拉加载   
 3.ItemTouchHelper  滑动删除 拖拽换位   
-4.多类型Adapter
+4.多类型Adapter   
+![image](https://github.com/bux-git/RecyclerView/raw/master/recyclerView01.gif)
